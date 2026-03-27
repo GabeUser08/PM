@@ -1,0 +1,15 @@
+9) Par ou Ímpar
+Algoritmo "ex9"
+Var
+ n:inteiro
+
+Inicio
+ escreva("numero: ")
+ leia(n)
+ se (n mod 2 = 0) entao
+  escreva("par")
+ senao
+  escreva("impar")
+ fimse
+
+Fimalgoritmo

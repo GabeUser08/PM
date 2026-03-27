@@ -1,0 +1,22 @@
+10) Maior Número
+Algoritmo "ex10"
+Var
+ n1,n2:inteiro
+
+Inicio
+ escreva("n1: ")
+ leia(n1)
+ escreva("n2: ")
+ leia(n2)
+
+ se (n1 > n2) entao
+  escreva("maior: ", n1)
+ senao
+  se (n2 > n1) entao
+   escreva("maior: ", n2)
+  senao
+   escreva("iguais")
+  fimse
+ fimse
+
+Fimalgoritmo

@@ -1,0 +1,14 @@
+8) Potência
+Algoritmo "ex8"
+Var
+ base,exp,resultado:inteiro
+
+Inicio
+ escreva("base: ")
+ leia(base)
+ escreva("expoente: ")
+ leia(exp)
+ resultado <- base ^ exp
+ escreva("resultado: ", resultado)
+
+Fimalgoritmo

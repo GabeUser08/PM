@@ -1,0 +1,14 @@
+4) Área do Retângulo
+Algoritmo "ex4"
+Var
+ base,altura,area:real
+
+Inicio
+ escreva("base: ")
+ leia(base)
+ escreva("altura: ")
+ leia(altura)
+ area <- base * altura
+ escreva("area: ", area)
+
+Fimalgoritmo

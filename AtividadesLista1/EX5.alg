@@ -1,0 +1,14 @@
+5) Idade em Meses e Dias
+Algoritmo "ex5"
+Var
+ idade,meses,dias:inteiro
+
+Inicio
+ escreva("digite sua idade: ")
+ leia(idade)
+ meses <- idade * 12
+ dias <- idade * 365
+ escreva("meses: ", meses)
+ escreva("dias: ", dias)
+
+Fimalgoritmo
