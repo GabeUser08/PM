@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contato - Gabriel Monteiro</title>
+  </head>
+  <body>
+
+    <h1>Contato</h1>
+
+    <nav>
+      <a href="index.html">Início</a> |
+      <a href="sobre.html">Sobre Mim</a> |
+      <a href="academico.html">Vida Acadêmica</a> |
+      <a href="experiencia.html">Experiência</a> |
+      <a href="interesses.html">Gostos e Interesses</a>
+    </nav>
+
+    <hr />
+
+    <h2>Informações de Contato</h2>
+    <ul>
+      <li><strong>Cidade:</strong> São José dos Campos, SP</li>
+      <li>
+        <strong>Instagram:</strong>
+        <a href="https://instagram.com/g4be.mtr" target="_blank">@g4be.mtr</a>
+      </li>
+    </ul>
+
+    <hr />
+
+    <h2>Formulário de Contato</h2>
+
+    <form action="#" method="post">
+
+      <label for="nome">Nome:</label><br />
+      <input type="text" id="nome" name="nome" placeholder="Seu nome completo" /><br /><br />
+
+      <label for="email">E-mail:</label><br />
+      <input type="email" id="email" name="email" placeholder="seu@email.com" /><br /><br />
+
+      <label for="assunto">Assunto:</label><br />
+      <select id="assunto" name="assunto">
+        <option value="">-- Selecione um assunto --</option>
+        <option value="oportunidade">Oportunidade de trabalho</option>
+        <option value="parceria">Parceria / Startup</option>
+        <option value="duvida">Dúvida</option>
+        <option value="outro">Outro</option>
+      </select><br /><br />
+
+      <label>Motivo do contato:</label><br />
+      <input type="radio" id="profissional" name="motivo" value="profissional" />
+      <label for="profissional">Profissional</label><br />
+      <input type="radio" id="academico" name="motivo" value="academico" />
+      <label for="academico">Acadêmico</label><br />
+      <input type="radio" id="pessoal" name="motivo" value="pessoal" />
+      <label for="pessoal">Pessoal</label><br /><br />
+
+      <label for="mensagem">Mensagem:</label><br />
+      <textarea id="mensagem" name="mensagem" rows="5" cols="40"
+        placeholder="Escreva sua mensagem aqui..."></textarea><br /><br />
+
+      <input type="submit" value="Enviar mensagem" />
+
+    </form>
+
+  </body>
+</html>
